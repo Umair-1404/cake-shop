@@ -9,20 +9,21 @@
     align-items: center;
     justify-content: space-between;
 }
-.nav-icons{
-    margin-top: 40px;
-}
 .icons{
-    width: 100px;
-    margin: 0px;
-    padding: 0px;
+    width: 232px;
+    /* margin: 0px; */
+    /* padding: 40px; */
     display: flex;
-    justify-content: space-between;    
+    /* justify-content: space-between;     */
     color: white;
     list-style-type: none;
 }
+.li-icons{
+    padding: 0px 10px;
+}
 .logo{
-    padding-left: 69px;
+    /* padding-left: 69px; */
+    width: 232px;
 }
 .nav-btn{
     width: 232px;
@@ -33,18 +34,26 @@
     color: #E5BF4A;
     border: 1px solid #E5BF4A;
 }
-/* .nav-sticky{
-    position:sticky;
-    top: 50px;
-} */
+.nav-bar{
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content:center; */
+    background-color: #2A2A2A;
+}
 .nav-ul{
     /* position: sticky; */
     font-family: 'Times New Roman', Times, serif;
-    margin: 0px 430px;
+    /* margin: 0px 30px; */
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     color: white;
     list-style-type: none;
+}
+
+.li-nav{
+    padding: 0px 30px;
 }
 .home-section{
     /* margin: 0px 10px; */
@@ -90,6 +99,7 @@
     font-size: 40px;
     font-weight: 400;
     text-align: center;
+    padding-top: 45px
 }
 .line{
     background-color: #E5BF4A;
@@ -101,10 +111,10 @@
 .grid-container1{
     font-family: "Poiret One", cursive;
     margin: 50px;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 100px;
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 40px ;
+    padding: 10px 96px;
 }
 .grid1-text{
     font-size: 16px;
@@ -114,7 +124,14 @@
     line-height: 1.5;
 }
 .grid-txt-h2{
+    width: 420px;
     color: #E5BF4A;
+}
+.grid-txt-p{
+    width: 594px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
 }
 .grid1-img{
     width: 100%;
@@ -141,7 +158,7 @@
     font-weight: 400;
 }
 .hover-item {
-    /* visibility: hidden; */
+    visibility: hidden;
     font-family: "Poiret One", cursive;
     font-weight: bolder;
     font-size: 15px;
@@ -150,9 +167,9 @@
     width: 426px;
     height: 50px;
     position: absolute;
-    top: 1910px;
+    top: 1995px;
 }
-.hover-item:hover{
+.items-hover:hover .hover-item{
     visibility: visible;
 }
 .vid-container{
@@ -213,6 +230,7 @@
 .blog-head {
     display: flex;
     justify-content: space-between;
+    padding: 45px 50px;
 }
 
 .btn-blog {
