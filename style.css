@@ -357,12 +357,49 @@
   margin-left: 70px;
 }
 .footer-desc {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-between;
+  padding: 80px 70px;
+  grid-gap: 200px;
+  font-family: "Jost","Poiret One", cursive;
 }
-/* .footer-txt{
-    width: 200px;
-} */
 .footer-p {
-  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.socialm-btn{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px 15px;
+}
+.socialm-icon{
+  font-size: 16px;
+  color: white;
+}
+.loc{
+  font-size: 18px;
+  width: 204px;
+}
+.desc-icons{
+  font-size: 23px;
+}
+.footer-h4{
+  font-family: "Poiret One", cursive;
+  background-color: black;
+  color: #e5bf4a;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.contact{
+  font-size: 18px;
+  width: 200px;
+}
+.footer-end{
+  font-family: "Jost","Poiret One", cursive;
+  text-align: center;
 }
