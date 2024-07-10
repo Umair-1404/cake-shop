@@ -11,10 +11,7 @@
 }
 .icons {
   width: 232px;
-  /* margin: 0px; */
-  /* padding: 40px; */
   display: flex;
-  /* justify-content: space-between;     */
   color: white;
   list-style-type: none;
 }
@@ -22,7 +19,6 @@
   padding: 0px 10px;
 }
 .logo {
-  /* padding-left: 69px; */
   width: 232px;
 }
 .nav-btn {
@@ -38,14 +34,10 @@
   position: sticky !important;
   top: 0;
   width: 100%;
-  /* display: flex; */
-  /* justify-content:center; */
   background-color: #2a2a2a;
 }
 .nav-ul {
-  /* position: sticky; */
   font-family: "Times New Roman", Times, serif;
-  /* margin: 0px 30px; */
   display: flex;
   justify-content: center;
   color: white;
@@ -56,11 +48,9 @@
   padding: 0px 30px;
 }
 .home-section {
-  /* margin: 0px 10px; */
   height: 100vh;
   background-image: url(image/home-bg.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
 }
 .txt-home {
   background-color: transparent;
@@ -270,18 +260,15 @@
   font-weight: 900;
   font-size: 10px;
   height: 353px;
-  /* width: 336px; */
 }
 .blog-txt {
   color: #e5bf4a;
   font-size: 24px;
-  /* padding: 8px; */
 }
 .blog-txt-p {
   font-family: "Jost";
   font-size: 16px;
   line-height: 1.6;
-  /* margin-bottom: 36px; */
   font-weight: 300;
 }
 .blog-a {
@@ -298,7 +285,6 @@
   width: 90px;
   height: 2px;
   position: relative;
-  /* top: 100px; */
   left: 418px;
   bottom: 95px;
 }
@@ -307,8 +293,6 @@
   width: 90px;
   height: 2px;
   position: relative;
-  /* top: 100px; */
-  /* right: 3px; */
   left: 418px;
   bottom: 95px;
 }
