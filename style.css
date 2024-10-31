@@ -48,9 +48,11 @@
   padding: 0px 30px;
 }
 .home-section {
-  height: 100vh;
+  height: 100vh; /* Full viewport height */
   background-image: url(image/home-bg.jpg);
-  background-size: cover;
+  background-size: cover; /* Ensure the image covers the section */
+  background-repeat: no-repeat; /* Prevent repetition of the image */
+  background-position: center; /* Center the image */
 }
 .txt-home {
   background-color: transparent;
@@ -386,4 +388,133 @@
 .footer-end{
   font-family: "Jost","Poiret One", cursive;
   text-align: center;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+   @media only screen and (max-width: 600px) { 
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .centre-txt {
+    width: 39vh;
+    margin: 0px;
+    justify-content: center;
+}
+
+  .grid-container1 {
+    grid-template-columns: auto;
+}
+} */
+
+@media only screen and (max-width: 430px) {
+  img,
+  video {
+      width: 100%;
+      height: auto;
+  }
+
+  .home-section {
+    /* height: auto; Allow the height to adjust based on content */
+    min-height: 100vh; /* Ensure it still covers at least 100vh */
+    background-size: contain; /*Change to contain for smaller screens*/
+    margin: 0px;
+  }
+
+
+  .header-bar {
+      flex-direction: column; /* Stack header items */
+      align-items: center; /* Center items */
+  }
+
+  .nav-ul {
+      flex-direction: column; /* Stack navigation items */
+      align-items: center; /* Center navigation items */
+  }
+
+  .li-nav {
+      padding: 5px 0px; /* Increase spacing for touch targets */
+      font-size: 16px; /* Adjust font size */
+  }
+
+  .txt-home {
+    top: 100%;
+    left: 0px;
+    width: 300px;
+    font-size: 35px;
+}
+
+  .btn-home {
+      width: 40%; /* Full width with margin */
+      font-size: 10px; /* Adjust font size */
+  }
+  .centre-txt {
+    width: 38vh;
+    margin: 0px;
+  }
+  .txt-h2{
+    text-align: left;
+    margin: 0px;
+  }
+  .line {
+    background-color: #e5bf4a;
+    width: 100px;
+    height: 2px;
+    margin-left: 3px;
+    margin-top: 25px;
+}
+
+  .grid-container1,
+  .grid-container2 {
+      grid-template-columns: auto; /* Single column layout */
+      margin: 0px;
+      padding: 0px;
+    }
+   
+    .child-grid {
+      padding: 0px;
+  }
+    .grid1-img {
+      width: auto;
+      height: 250px;
+  }
+
+  .icon-vid {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    top: 505%;
+    left: 40%;
+}
+.customer-section {
+  grid-template-columns: auto;
+  justify-content: left;
+}
+
+  .footer-nav {
+      flex-direction: column; /* Stack footer items */
+      align-items: center; /* Center footer items */
+      padding: 20px 0; /* Add padding */
+  }
+
+  .socialm-btn {
+      width: 100%; /* Full width for social buttons */
+      margin: 10px 0; /* Add spacing */
+  }
+
+  .customer-section {
+      grid-template-columns: 1fr; /* Stack reviews */
+      padding: 0 20px; /* Add side padding */
+  }
+
+  .blog-section {
+      padding: 20px; /* Add padding */
+  }
+
+  .blog-txt {
+      font-size: 18px; /* Adjust blog title font size */
+  }
 }
