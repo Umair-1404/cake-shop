@@ -487,7 +487,9 @@
       width: auto;
       height: 250px;
   }
-
+  .container-vid{
+    width: 280px;
+  }
   .icon-vid {
     width: 50px;
     height: 50px;
@@ -500,9 +502,9 @@
   justify-content: left;
 }
 .parent-grid-review{
-  width: 250px;
-  height: 200px;
-  padding: 10px;
+  width: 270px;
+  height: 290px;
+  padding: 5px;
 }
 .review-img {
   width: 40px;
@@ -539,6 +541,15 @@
   height: 35px;
   padding: 0;
   margin: 0;
+}
+.line-blog1{
+  left: 19px;
+  bottom: 40px;
+}
+
+.line-blog2{
+  left: 19px;
+  bottom: 40px;
 }
 
 .insta-btn {
