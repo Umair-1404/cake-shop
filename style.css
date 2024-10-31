@@ -223,6 +223,12 @@
   width: 100%;
   margin-top: 70px;
 }
+
+.blog-img{
+  height: 390px;
+  width: 400px; 
+}
+
 .blog-head {
   display: flex;
   justify-content: space-between;
@@ -493,28 +499,81 @@
   grid-template-columns: auto;
   justify-content: left;
 }
+.parent-grid-review{
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+}
+.review-img {
+  width: 40px;
+}
+.insta-grid{
+  grid-template-columns: auto auto;
+}
+.parent-grid-blog{
+  grid-template-columns: auto;
+}
 
-  .footer-nav {
-      flex-direction: column; /* Stack footer items */
-      align-items: center; /* Center footer items */
-      padding: 20px 0; /* Add padding */
+.grid-blog{
+  grid-template-columns: auto; 
+}
+
+.blog-img{
+  height: auto;
+  width: 280px;
+  padding-top: 10px;
+}
+.blog-head {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+.txt-blog{
+  font-size: 20px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.btn-blog{
+  width: 116px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.insta-btn {
+  margin-top:20px; ;
+  font-size: 10px;
+  padding: 9px 9px;
+}
+.footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-list {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav-li {
+    padding: 5px 0px;
+}
+
+  .footer-desc{
+    grid-template-columns: auto;
+    grid-gap: 50px;
+    padding: 10px;
+  }
+
+  .nav-line{
+    width: 0px;
   }
 
   .socialm-btn {
-      width: 100%; /* Full width for social buttons */
-      margin: 10px 0; /* Add spacing */
+      width: 100%; 
+      margin: 10px 0; 
   }
 
-  .customer-section {
-      grid-template-columns: 1fr; /* Stack reviews */
-      padding: 0 20px; /* Add side padding */
-  }
-
-  .blog-section {
-      padding: 20px; /* Add padding */
-  }
-
-  .blog-txt {
-      font-size: 18px; /* Adjust blog title font size */
-  }
 }
